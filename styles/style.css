@@ -309,11 +309,11 @@
   margin: 100px 0 0;
   display: flex;
   justify-content: center;
+  column-gap: 40px;
 }
 
 .step {
   flex-basis: 220px;
-  margin-right: 40px;
 }
 
 .step__title {
@@ -344,16 +344,12 @@
   display: flex;
 }
 
-.footer__column {
-  margin-right: auto;
-}
-
 .footer__column_content_hours {
-  margin-right: 80px;
+  margin-left: auto;
 }
 
 .footer__column_content_social {
-  margin: 0;
+  margin-left: 80px;
 }
 
 .footer__logo {
@@ -381,12 +377,14 @@
 .footer__column-link {
   color: white;
   text-decoration: none;
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
 }
 
 .footer__social-icon {
   width: 16px;
   height: 16px;
-  margin-right: 10px;
 }
 
 .footer__copyright {
